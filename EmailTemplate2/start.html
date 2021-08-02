@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML EMAIL 3</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            background-color: #ccc;
+        }
+        table{
+            border-spacing: 0;
+        }
+        td{
+            padding: 0;
+        }
+        img{
+            border: 0;
+        }
+        .wrapper{
+            width: 100%;
+            table-layout: fixed;
+            background-color: #ccc;
+            padding-bottom: 20px;
+        }
+        .main{
+            background-color: #fff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #4a4a4a;
+        }
+        .button{
+            background-color: #ffe550;
+            color: black;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .two-col{
+            text-align: center;
+            font-size: 0;
+            padding: 40px 0;
+        }
+        .two-col .column{
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .two-col .padding{
+            padding: 20px;
+        }
+        .two-col .content{
+            text-align: left;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        @media screen and (max-width: 600px) {
+            .two-col .content{
+                width: 300px!important;
+                max-width: 300px!important;
+            }
+            .padding{
+                padding right: 0!important;
+                padding-left: 0!important;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+
+            <!--top gap-->
+
+            <tr>
+                <td>
+                    <table width="100%">
+                        
+                        <tr>
+                            <td style="background-color: #ffe550;padding: 15px">
+                            </td>
+                        </tr>
+                    
+                    </table>
+                </td>
+            </tr>
+
+            <!--logo-->
+
+            <tr>
+                <td>
+                    <table width="100%">
+
+                        <tr>
+                            <td style="text-align: center;padding:10px;">
+
+                                <a href="#"><img src="https://biwonsyracuse.com/images/logo-tj@2x.png" alt="Tour le Jour logo" width="180" title="Tour le Jours logo"></a>
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+            <!--banner-->
+
+            <tr>
+                <td style="text-align: center;">
+                    <a href="#"><img src="https://media.tenor.com/images/36db10299232c4fc99e767bfe82ff42b/tenor.gif" alt=" coffee heart" width="600" style="max-width: 100%;"></a>
+                </td>
+            </tr>
+
+            <!--title text and the like-->
+
+                <tr>
+                    <td style="padding-bottom: 40px;">
+                        <table width="100%">
+                            <tr>
+                                <td style="text-align: center;padding: 15px;">
+
+                                    <p style="font-size: 20px; font-weight: bold;">Come Try Our New Drinks! <strong style="color: #e0cb50;">Only In This Season!</strong></p>
+                                    <p style="font-size: 15px;line-height: 23px; padding: 5px 0 15px;">Come in and try our new Banana Cake or cake slices! Try our savory Mango Cloud Cake in season only at Tour Le Jours Bakery on Lamar or in Hmart in Lakeline!</p>
+
+                                    <a href="#" class="button">Take a look!</a>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            <!--border-->
+                        
+                <tr>
+                    <td style="background-color: #ffe550;padding: 7px">
+                    </td>
+                </tr>
+        
+            <!--two column-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="two-col">
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="https://www.tljus.com/wp-content/uploads/2019/10/Cloud-Cake3.jpg" alt="" width="260" style="max-width: 260px;"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size: 17px;">Cakes In Stock</p>
+                                                        <p style="padding-bottom: 15px;">Our new treats will be sure to add a kick in your step! Try our new flavor of croquettes!</p>
+                                                        <a href="#" class="button">Yum!</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--background quote-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center;background-color: #ffe550;color: black;padding: 15px;font-size: 18px; ">
+                                <p style="font-weight: bold;">"Its like I ate a chunk of clouds! My kids love it! The Fruit is so fresh and the bakery itself is so cute!"</p>
+                                <p>-Jesse.P</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!--footer-->
+            <tr>
+                <td style="background-color: #efefef;">
+                    <table width="100%">
+                        <tr>
+                            <td style="padding: 30px 10px; text-align: center;">
+
+                                <a href="#"><img src="https://biwonsyracuse.com/images/logo-tj@2x.png" alt="" width="120"></a>
+
+                                <p>Tour le Jours Bakery on Lamar</p>
+                                <p>2222 lamar blvd city, state 78752</p>
+                                <p>email@tourlejour.com</p>
+                                <p>1-800-888-8888</p>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color: #ffe550;padding: 7px">
+                </td>
+            </tr>
+
+
+        </table>
+        
+    </center>
+    
+</body>
+</html>
